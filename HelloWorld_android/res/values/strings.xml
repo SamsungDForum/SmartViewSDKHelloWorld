@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSF2 Hello World</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_connect">Connect</string>
+    <string name="services_title">Choose a Service</string>
+    <string name="hint">&#8230;type something clever</string>
+    
+    <string name="web_launcher_err">Could not get web launcher instance. Check the selected service.</string>
+    <string name="launch_err">Could not launch the Hello World service.</string>
+    <string name="channel_err">Could not connect to the Hello World channel. Check that the Hello World service is running.</string>
+</resources>

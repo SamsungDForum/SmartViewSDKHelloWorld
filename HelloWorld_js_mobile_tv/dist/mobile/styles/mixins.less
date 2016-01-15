@@ -1,0 +1,124 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0;
+}
+
+*:not(input.field) {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+*:focus {outline:none;}
+
+
+.flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flexflow(@values) {
+  -webkit-flex-flow: @values;
+  -moz-flex-flow:  @values;
+  -ms-flex-flow:  @values;
+  flex-flow:  @values;
+}
+
+.flexalignitems(@values) {
+  -webkit-align-items: @values;
+  -moz-align-items:  @values;
+  -ms-align-items:  @values;
+  align-items:  @values;
+}
+
+.flexaligncontent(@values) {
+  -webkit-align-content: @values;
+  -moz-align-content:  @values;
+  -ms-align-content:  @values;
+  align-content:  @values;
+}
+
+.flexjustifycontent(@values) {
+  -webkit-justify-content: @values;
+  -moz-justify-content:  @values;
+  -ms-justify-content:  @values;
+  justify-content:  @values;
+}
+
+.flex(@values) {
+  -webkit-box-flex: @values;
+  -moz-box-flex:  @values;
+  -webkit-flex:  @values;
+  -ms-flex:  @values;
+  flex:  @values;
+}
+
+/* Button */
+button {
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  border-radius: 2px;
+  font-size: 1em;
+  background-color: #fff;
+  color: #646464;
+  border:none;
+}
+
+input{
+  padding: 1em;
+  font-size: 1em;
+}
+
+/*
+.button > paper-ripple {
+    border-radius: 2px;
+    overflow: hidden;
+}
+*/
+
+button.narrow {
+  width: 60px;
+}
+
+button.grey {
+  background-color: #eee;
+}
+
+button.blue {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+button.green {
+  background-color: #0f9d58;
+  color: #fff;
+}
+
+button.red {
+  background-color: #C82C3D;
+  color: #fff;
+}
+
+button.raised {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+button.raised:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  transition-delay: 0s;
+}
+
+button.raised:active {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0);
+  transition-delay: 0s;
+}

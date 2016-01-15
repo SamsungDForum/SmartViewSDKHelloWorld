@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="debug">false</bool>
+    <string name="dev_url">http://dev-multiscreen-examples.s3-website-us-west-1.amazonaws.com/examples/helloworld/tv/</string>
+    <string name="prod_url">http://prod-multiscreen-examples.s3-website-us-west-1.amazonaws.com/examples/helloworld/tv/</string>
+    <integer name="max_discovery_wait">10000</integer>
+    <string name="app_id">HelloWorld</string>
+    <string name="channel">com.samsung.multiscreen.helloworld</string>
+</resources>

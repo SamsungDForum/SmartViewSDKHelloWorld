@@ -1,0 +1,22 @@
+{
+  "name": "multiscreen-hello-world",
+  "displayName": "Multiscreen Hello World",
+  "version": "0.0.4",
+  "description": "Hello World example for multiscreen",
+  "homepage": "",
+  "repository": "",
+  "keywords": [
+    "util"
+  ],
+  "author": "Samsung Electronics",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/gulp server",
+    "build": "node_modules/.bin/gulp build"
+  },
+  "devDependencies": {
+    "express": "^4.10.1",
+    "gulp": "^3.8.10"
+  },
+  "engine": "node >= 0.10.15"
+}

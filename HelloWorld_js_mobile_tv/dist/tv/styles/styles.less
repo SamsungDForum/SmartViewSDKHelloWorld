@@ -1,0 +1,108 @@
+
+.flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flexflow(@values) {
+  -webkit-flex-flow: @values;
+  -moz-flex-flow:  @values;
+  -ms-flex-flow:  @values;
+  flex-flow:  @values;
+}
+
+.flexalignitems(@values) {
+  -webkit-align-items: @values;
+  -moz-align-items:  @values;
+  -ms-align-items:  @values;
+  align-items:  @values;
+}
+
+.flexaligncontent(@values) {
+  -webkit-align-content: @values;
+  -moz-align-content:  @values;
+  -ms-align-content:  @values;
+  align-content:  @values;
+}
+
+.flexjustifycontent(@values) {
+  -webkit-justify-content: @values;
+  -moz-justify-content:  @values;
+  -ms-justify-content:  @values;
+  justify-content:  @values;
+}
+
+.flex(@values) {
+  -webkit-box-flex: @values;
+  -moz-box-flex:  @values;
+  -webkit-flex:  @values;
+  -ms-flex:  @values;
+  flex:  @values;
+}
+
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+}
+
+
+*:focus {outline:none;}
+
+html, body {
+  width : 100%;
+  height : 100%;
+}
+
+body{
+  background : #4285f4;
+  .flexbox();
+  .flexflow(column wrap);
+  .flexalignitems(center);
+  .flexjustifycontent(center);
+  font: normal 14px Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color : #fff;
+  padding : 3em;
+}
+
+blockquote{
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  &:before {
+    color: #8ef46a;
+    content: open-quote;
+    font-size: 2em;
+    vertical-align: -.2em;
+    margin-right : 20px;
+  }
+
+  &:after {
+    color: #8ef46a;
+    content: close-quote;
+    font-size: 2em;
+    vertical-align: -.2em;
+    margin-left : 20px;
+  }
+}
+
+sub{
+  display: block;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+  padding-right: 1em;
+}
