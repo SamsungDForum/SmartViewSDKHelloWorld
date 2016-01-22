@@ -54,8 +54,8 @@ public class ActionBarConnectIcon {
     };
     
     private static final int[] themes = {
-        R.drawable.mr_ic_media_route_mono_light,
-        R.drawable.mr_ic_media_route_mono_dark
+        R.drawable.mr_ic_media_route_holo_light,
+        R.drawable.mr_ic_media_route_holo_dark
     };
     private View view;
     private ImageView imageView;

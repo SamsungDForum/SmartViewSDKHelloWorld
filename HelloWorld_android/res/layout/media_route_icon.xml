@@ -16,7 +16,7 @@
 	    android:layout_marginRight="20dp"
 	    android:layout_marginStart="0dp"
 	    android:clickable="false"
-	    android:src="@drawable/mr_ic_media_route_mono_light"
+	    android:src="@drawable/mr_ic_media_route_holo_light"
 	    android:visibility="gone" />
 
 </RelativeLayout>
