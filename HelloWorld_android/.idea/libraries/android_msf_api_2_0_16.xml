@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-msf-api-2.0.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/android-msf-api-2.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

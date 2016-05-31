@@ -14,14 +14,6 @@ The following are required dependencies for building the android-hello-world app
 
 More information on downloading and adding Android support libraries can be found at the [Android Developer Support Library Setup](https://developer.android.com/tools/support-library/setup.html)
 
-## Eclipse
-
- Before cloning or downloading the project, the required dependencies should be available. The appcompat-v7 and mediarouter-v7 can be installed via the Android SDK Manager and subsequently imported as "Existing Android Code". After import, be sure to mark the projects as Android Libraries.
- 
-- Clone the Hello World app and import it into Eclipse as "Existing Android Code".
-- Go to the Hello World project properties and add library project references to appcompat-v7 and mediarouter-v7 under the Android tab.
-
-The Hello World app is now ready to build and run.
 
 ## Android Studio
 
