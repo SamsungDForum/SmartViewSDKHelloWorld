@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XHu-pB-jZH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="LfG-mE-ug5">
+            <objects>
+                <navigationController id="XHu-pB-jZH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qKm-6b-A19">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1PU-ri-xnf" kind="relationship" relationship="rootViewController" id="FoS-kL-rjc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o36-dW-imk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761" y="552"/>
+        </scene>
+        <!--Hello World-->
+        <scene sceneID="J0I-NI-xJQ">
+            <objects>
+                <viewController id="1PU-ri-xnf" customClass="DeviceViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jh2-zr-l4z"/>
+                        <viewControllerLayoutGuide type="bottom" id="iWW-fB-SO9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Fn-nE-nB6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="...type something clever" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LoY-zO-OUh">
+                                <rect key="frame" x="45" y="164" width="510" height="30"/>
+                                <color key="backgroundColor" red="0.18039215689999999" green="0.4941176471" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fy3-8s-SOE"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1PU-ri-xnf" id="gk8-RM-Nb0"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LoY-zO-OUh" secondAttribute="trailing" constant="25" id="03r-pi-n4h"/>
+                            <constraint firstItem="LoY-zO-OUh" firstAttribute="leading" secondItem="6Fn-nE-nB6" secondAttribute="leadingMargin" constant="25" id="1Zh-gm-pj1"/>
+                            <constraint firstItem="LoY-zO-OUh" firstAttribute="top" secondItem="jh2-zr-l4z" secondAttribute="bottom" constant="100" id="QF3-8Z-RgI"/>
+                            <constraint firstItem="LoY-zO-OUh" firstAttribute="centerX" secondItem="6Fn-nE-nB6" secondAttribute="centerX" id="p9J-39-zBf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hello World" id="GmX-M0-iGO">
+                        <barButtonItem key="leftBarButtonItem" id="3cT-Tl-5iY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FjM-TK-8JP">
+                                <rect key="frame" x="20" y="7" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Disconnect"/>
+                                <connections>
+                                    <action selector="OnDisconnectTV:" destination="1PU-ri-xnf" eventType="touchUpInside" id="JKG-bq-7jN"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="R4K-VJ-io8">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EH0-av-Bpl">
+                                <rect key="frame" x="500" y="7" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="deviceListTouchUp:" destination="1PU-ri-xnf" eventType="touchUpInside" id="S9x-bI-pOM"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="deviceListButton" destination="EH0-av-Bpl" id="1Bg-WS-ARA"/>
+                        <outlet property="mDisConnectTvButton" destination="FjM-TK-8JP" id="vT8-Li-rk9"/>
+                        <outlet property="message" destination="LoY-zO-OUh" id="USm-Uc-jDL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0CH-ES-OmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1529" y="552"/>
+        </scene>
+    </scenes>
+</document>
