@@ -70,38 +70,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/HelloWorldController.swift"
-            timestampString = "497439756.402057"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "onServiceFound(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/HelloWorldController.swift"
-            timestampString = "497439757.213748"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
-            landmarkName = "onServiceLost(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -128,22 +96,6 @@
             startingLineNumber = "72"
             endingLineNumber = "72"
             landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/AppDelegate.swift"
-            timestampString = "497439806.992113"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -288,68 +240,6 @@
             endingLineNumber = "313"
             landmarkName = "onServiceFound(_:serviceURI:discoveryType:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded, Arg[1] = Owned To Guaranteed and Exploded&gt; of SmartView.ServiceSearch.onServiceFound (Swift.String, serviceURI : Swift.String, discoveryType : SmartView.ServiceSearchDiscoveryType) -&gt; ()"
-                  moduleName = "SmartView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/ServiceSearch.swift"
-                  timestampString = "497511991.234608"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded, Arg[1] = Owned To Guaranteed, Arg[3] = Owned To Guaranteed and Exploded&gt; of SmartView.ServiceSearch.(onServiceFound (Swift.String, serviceURI : Swift.String, discoveryType : SmartView.ServiceSearchDiscoveryType) -&gt; ()).(closure #1)"
-                  moduleName = "SmartView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/ServiceSearch.swift"
-                  timestampString = "497511991.236197"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Owned To Guaranteed, Arg[2] = Owned To Guaranteed, Arg[3] = Owned To Guaranteed and Exploded, Arg[5] = Owned To Guaranteed and Exploded&gt; of SmartView.ServiceSearch.(onServiceFound (Swift.String, serviceURI : Swift.String, discoveryType : SmartView.ServiceSearchDiscoveryType) -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "SmartView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/ServiceSearch.swift"
-                  timestampString = "497511991.237734"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Owned To Guaranteed and Exploded, Arg[2] = Owned To Guaranteed, Arg[4] = Owned To Guaranteed, Arg[5] = Owned To Guaranteed and Exploded&gt; of SmartView.ServiceSearch.(onServiceFound (Swift.String, serviceURI : Swift.String, discoveryType : SmartView.ServiceSearchDiscoveryType) -&gt; ()).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "SmartView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/ServiceSearch.swift"
-                  timestampString = "497511991.239617"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -365,6 +255,134 @@
             startingLineNumber = "317"
             endingLineNumber = "317"
             landmarkName = "onServiceFound(_:serviceURI:discoveryType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+            timestampString = "511165677.514766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "connect(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+            timestampString = "511165682.211336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
+            landmarkName = "connect(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+            timestampString = "511165722.40815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "connect(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+            timestampString = "511165724.61436"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
+            landmarkName = "connect(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+            timestampString = "511165728.109421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
+            landmarkName = "connect(_:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartView.Channel.connect (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completionHandler : Swift.Optional&lt;(Swift.Optional&lt;SmartView.ChannelClient&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "SmartView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+                  timestampString = "511165728.11649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "312"
+                  endingLineNumber = "312"
+                  offsetFromSymbolStart = "3956">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartView.Channel.(connect (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completionHandler : Swift.Optional&lt;(Swift.Optional&lt;SmartView.ChannelClient&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "SmartView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aseem/Desktop/Perforce%20Code/CONVERGENCE/INT/SmartViewSDK/MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Channel.swift"
+                  timestampString = "511165728.117777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "314"
+                  endingLineNumber = "314"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../MOBILE/iOS/2.0/PUBLIC/XCODE80/SmartViewSDK/SmartViewSDK/public/Service.swift"
+            timestampString = "511165746.966218"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "468"
+            endingLineNumber = "468"
+            landmarkName = "WakeOnWirelessLan(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -5,31 +5,33 @@
 
 
 ###1. Library
-1. [SmartView SDK iOS framework](http://www.samsungdforum.com/AddLibrary/SmartViewDownload):  iOS Package(Mobile)
+1. Download library manually [SmartView SDK iOS framework](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download):  iOS Package(Mobile)
 
 	add smartview.framework
+2. Download and install by [Cocoapods](https://cocoapods.org/pods/smart-view-sdk) (recommended)
 
+		pod 'smart-view-sdk'
+	**Note** Application project should be unlocked before fetching pod. To unlock open .xcodeproj in Xcode and click unlock and close. Refer [Cocoapods guide](https://cocoapods.org) for more.
 
 ###2. Build Environment
 1. This sample app is developed using swift language.
-2. Required XCode version 7.2 for XCODE70 and version 8.0 for XCODE80	
+2. Use 'smart-view-sdk' cocoapods. More information at "Install By Cocoapods" http://developer.samsung.com/tv/develop/extension-libraries/smart-view-sdk/sender-apps/ios-sender-app
 
 
 ###3. Recommendation for  iOS framework
-1. This sample app includes SmartView SDK with
+1. This sample app includes Podfile with 'smart-view-sdk' as pod item
 2. iphoneos+iphonesimulator library: works on devices and simulator( + i386,x86_64)
 
- ***Note**: Apple App Store will reject your app  when you register your app with iphoneos+iphonesimulator framework.
- So, you should change iphoneos framework finally when you develop iphoneos+iphonesimulator framework, 
- or you should  remove manually that unused architectures from the final binary.
- refer to : [Stripping Unwanted Architectures From Dynamic Libraries In Xcode](http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/)*
+ **Note**: Apple App Store will reject your app  when you register your app with iphoneos+iphonesimulator framework.
+ You need to run shell 'remove\_unused\_archs.sh' to remove unused architectures from the final binary. This script is in the iphoneos+iphonesimulator folder.
+refer to: [Stripping Unwanted Architectures From Dynamic Libraries In Xcode](http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/)
  
 ###4. Discover : Search devices around your mobile.
 1. Pressing 'Cast' button in ActionBar, must start search API [search.start()].
 2. Populate device list by overriding onFound() & onLost() listeners.
 3. Stop device discovery, by calling stop search API [search.stop()].
 
-### 5.Code Snippet with Examples:
+### 5.Code Snippet with Examples(Swift):
 
 	
 ```swift

@@ -138,7 +138,7 @@ class HelloWorldController: NSObject, ServiceSearchDelegate, ChannelDelegate
     {
         if (error != nil) {
             search.start()
-            print(error?.localizedDescription)
+            print(error?.localizedDescription ?? "Error on Connect")
         }
         isConnecting = false
         isConnected = true
@@ -185,7 +185,7 @@ class HelloWorldController: NSObject, ServiceSearchDelegate, ChannelDelegate
     @objc func onMessage(_ message: Message)
     {
         NSLog("Message Received")
-        print("message is \(message.data) from \(message.from)")
+        print("message is \(String(describing: message.data)) from \(message.from)")
         let item:NSString = message.data as! NSString
         
         print(item)
@@ -194,7 +194,7 @@ class HelloWorldController: NSObject, ServiceSearchDelegate, ChannelDelegate
     @objc func onData(_ message: Message, payload: Data)
     {
         NSLog("Data Received")
-        print("data is \(message.data) from \(message.from) with payload \(payload)")
+        print("data is \(String(describing: message.data)) from \(message.from) with payload \(payload)")
     }
     
   }
